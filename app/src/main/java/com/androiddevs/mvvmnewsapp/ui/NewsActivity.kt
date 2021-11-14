@@ -16,6 +16,7 @@ class NewsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_news)
         bottomNavigationView.setupWithNavController(nav_host_fragment.findNavController())
+        bottomNavigationView.setOnNavigationItemReselectedListener { /**NO-OP**/ }
         val db = ArticleDatabase(this)
         val repo = NewsRepository(db)
 

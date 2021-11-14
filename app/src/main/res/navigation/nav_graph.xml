@@ -6,7 +6,7 @@
     app:startDestination="@id/breakingNewsFragment2">
     <fragment
         android:id="@+id/breakingNewsFragment2"
-        android:name="com.androiddevs.mvvmnewsapp.Fragments.BreakingNewsFragment"
+        android:name="com.androiddevs.mvvmnewsapp.ui.Fragments.BreakingNewsFragment"
         android:label="fragment_breaking_news"
         tools:layout="@layout/fragment_breaking_news" >
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/savedNewsFragment2"
-        android:name="com.androiddevs.mvvmnewsapp.Fragments.SavedNewsFragment"
+        android:name="com.androiddevs.mvvmnewsapp.ui.Fragments.SavedNewsFragment"
         android:label="SavedNewsFragment" >
         <action
             android:id="@+id/action_savedNewsFragment2_to_articleFragment"
@@ -23,7 +23,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchNewsFragment2"
-        android:name="com.androiddevs.mvvmnewsapp.Fragments.SearchNewsFragment"
+        android:name="com.androiddevs.mvvmnewsapp.ui.Fragments.SearchNewsFragment"
         android:label="SearchNewsFragment" >
         <action
             android:id="@+id/action_searchNewsFragment2_to_articleFragment"
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/articleFragment"
-        android:name="com.androiddevs.mvvmnewsapp.Fragments.ArticleFragment"
+        android:name="com.androiddevs.mvvmnewsapp.ui.Fragments.ArticleFragment"
         android:label="ArticleFragment" >
         <argument
             android:name="Article"

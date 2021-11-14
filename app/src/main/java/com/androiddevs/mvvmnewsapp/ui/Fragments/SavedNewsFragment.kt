@@ -1,4 +1,4 @@
-package com.androiddevs.mvvmnewsapp.Fragments
+package com.androiddevs.mvvmnewsapp.ui.Fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
