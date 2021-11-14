@@ -8,6 +8,14 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
+    sourceSets {
+        main {
+            java {
+                srcDirs += 'build/generated/source/navigation-args'
+            }
+        }
+    }
+
     defaultConfig {
         applicationId "com.androiddevs.mvvmnewsapp"
         minSdkVersion 21
