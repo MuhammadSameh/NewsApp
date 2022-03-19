@@ -18,7 +18,7 @@ The News App: Gets you the latest and most trending news in your location
 
 ## Description
 
-This app is used to track your runs, including all details like distance, time, date, claories burnt, starting and end location.
+News App where you can get latest news in your country or search for news by keyword.
 
 ### Features
 
